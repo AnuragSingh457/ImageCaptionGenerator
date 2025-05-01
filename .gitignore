@@ -1,0 +1,16 @@
+# Ignore Python environment files
+.env
+*.env
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore vectorstore and other generated data
+vectorstore/
